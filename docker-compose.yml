@@ -1,12 +1,11 @@
-- name: Pull docker image of Calculator
-  hosts: all
-  tasks:
-    - name: pull docker image
-      shell: docker pull vismayasolanki/spe_mini_project_calc
+version: '2'
 
-    - name: running container
-      shell: docker run -it -d -p 5000:5000 vismayasolanki/spe_mini_project_calc
+services:
 
-
+  backend:
+    image: vismayasolanki/spe_mini_project_calc:latest
+    ports:
+      - "6000:6000"
+    restart: always
 
 
