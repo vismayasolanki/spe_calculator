@@ -2,10 +2,10 @@
   hosts: all
   tasks:
     - name: pull docker image
-      shell: docker pull vismayasolanki/spe_calculator
+      shell: docker pull vismayasolanki/spe_mini_project_calc
 
     - name: running container
-      shell: docker run -it -d -p 5000:5000 vismayasolanki/spe_calculator
+      shell: docker run -it -d -p 5000:5000 vismayasolanki/spe_mini_project_calc
 
 
 
