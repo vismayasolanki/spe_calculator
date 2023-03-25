@@ -103,8 +103,19 @@ public class MathCalculator {
     }
     public static double fact(double inp) {
         double factorial = 1;
-        for(double i = 1; i <= inp; ++i){
-            factorial *= i;
+        try {
+            if(inp < 0){
+                factorial = Double.NaN;
+                throw new ArithmeticException("Negative Input");
+            }
+            else {
+                for (double i = 1; i <= inp; ++i) {
+                    factorial *= i;
+                }
+            }
+            return factorial;
+        } catch (ArithmeticException error){
+            System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
         return factorial;
     }
