@@ -2,14 +2,14 @@ pipeline{
     agent any
 
      tools{
-        maven 'MAVEN'
+        maven 'MAVEN 3.9.0'
     }
 
     environment{
-//         PATH = "/opt/homebrew/bin:${PATH}"
-//         DOCKER_IMAGE = 'vismayasolanki/spe_mini_project_calc:latest'
-//         CONTAINER_NAME = 'spe_mini_project_calc'
-//         PORTS = '8080:80'
+        PATH = "/opt/homebrew/bin:${PATH}"
+        DOCKER_IMAGE = 'vismayasolanki/spe_mini_project_calc:latest'
+        CONTAINER_NAME = 'spe_mini_project_calc'
+        PORTS = '8080:80'
     }
 
     stages{
@@ -39,7 +39,7 @@ pipeline{
                 sh "docker build -t spe_calculator ."
                 withCredentials([usernamePassword(credentialsId: 'docker_HUb', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
                     sh 'docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
-                    sh 'docker tag project vismayasolanki/spe_mini_project_calc:latest'
+//                     sh 'docker tag project vismayasolanki/spe_mini_project_calc:latest'
                     sh 'docker push vismayasolanki/spe_mini_project_calc:latest'
                 }
                 sh 'docker pull vismayasolanki/spe_mini_project_calc:latest'
