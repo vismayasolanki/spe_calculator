@@ -14,7 +14,7 @@ pipeline{
     stages{
         stage('Clone Git'){
             steps{
-                git 'https://github.com/vismayasolanki/spe_calculator.git'
+//                 git 'https://github.com/vismayasolanki/spe_calculator.git'
                 checkout scm
             }
         }
@@ -35,13 +35,13 @@ pipeline{
         }
         stage('Containerize (Push to Dockerhub and pull from Dockerhub)') {
             steps {
-                sh "docker build -t spe_calculator ."
+                sh "/usr/local/bin/docker build -t vismayasolanki/spe_mini_project_calc ."
                 withCredentials([usernamePassword(credentialsId: 'docker_HUb', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
-                    sh 'docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
+                    sh '/usr/local/bin/docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
 //                     sh 'docker tag project vismayasolanki/spe_mini_project_calc:latest'
-                    sh 'docker push vismayasolanki/spe_mini_project_calc:latest'
+                    sh '/usr/local/bin/docker push vismayasolanki/spe_mini_project_calc:latest'
                 }
-                sh 'docker pull vismayasolanki/spe_mini_project_calc:latest'
+//                 sh 'docker pull vismayasolanki/spe_mini_project_calc:latest'
 
             }
         }
