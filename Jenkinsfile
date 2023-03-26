@@ -6,10 +6,9 @@ pipeline{
     }
 
     environment{
-        PATH = "/opt/homebrew/bin:${PATH}"
-        DOCKER_IMAGE = 'vismayasolanki/spe_mini_project_calc:latest'
-        CONTAINER_NAME = 'spe_mini_project_calc'
-        PORTS = '8080:80'
+//         PATH = "/opt/homebrew/bin:${PATH}"
+//         DOCKER_IMAGE = 'vismayasolanki/spe_mini_project_calc:latest'
+//         CONTAINER_NAME = 'spe_mini_project_calc'
     }
 
     stages{
