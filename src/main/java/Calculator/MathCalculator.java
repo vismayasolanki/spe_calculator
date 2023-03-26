@@ -1,4 +1,5 @@
 package Calculator;// package src;
+import java.awt.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -60,9 +61,15 @@ public class MathCalculator {
                     System.out.println("Natural log of " + log + " is : " + calculator.computeNaturalLog(log) + "\n");
                     break;
 
-                default:
+
+
+                case 5:
+                    // exit
                     System.out.println("Exiting Calculator! GoodBye!");
                     return;
+                default:
+                    System.out.println("Please select a number from given options");
+                    break;
             }
         } while (true);
     }
@@ -127,7 +134,7 @@ public class MathCalculator {
             }
             return factorial;
         } catch (ArithmeticException error){
-            System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
+            System.out.println("[EXCEPTION - LOG] - Cannot find factorial of negative numbers " + error.getLocalizedMessage());
         }
         return factorial;
     }
