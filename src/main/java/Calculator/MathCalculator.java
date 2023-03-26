@@ -75,7 +75,19 @@ public class MathCalculator {
 
 
     public static double computeSquareRoot(double inp) {
-        double result = Math.sqrt(inp);
+        double result = 0;
+        try {
+            if(inp < 0){
+                result = Double.NaN;
+                throw new ArithmeticException("Can't find root of negative numbers");
+            }
+            else{
+                result = Math.sqrt(inp);
+            }
+
+        } catch (ArithmeticException error){
+            System.out.println("[EXCEPTION - LOG] - Cannot find Square root of negative numbers " + error.getLocalizedMessage());
+        }
         return result;
     }
 
