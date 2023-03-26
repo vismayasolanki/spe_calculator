@@ -27,7 +27,7 @@ pipeline{
 
         stage('Test'){
             steps{
-                 dir('/Users/vismayasolanki/Desktop/sem8/SPE/SPE_MINI_PROJECT/src/test') {
+                 dir('/Users/vismayasolanki/Desktop/sem8/SPE/SPE_MINI_PROJECT') {
                     sh "mvn test"
                 }
 
