@@ -1,139 +1,70 @@
-// pipeline{
-//     agent any
-//
-//      tools{
-//         maven 'MAVEN 3.9.0'
-//     }
-//
-//     environment{
-// //         PATH = "/opt/homebrew/bin:${PATH}"
-// //         DOCKER_IMAGE = 'vismayasolanki/spe_mini_project_calc:latest'
-// //         CONTAINER_NAME = 'spe_mini_project_calc'
-//     }
-//
-//     stages{
-//         stage('Clone Git'){
-//             steps{
-//                 git 'https://github.com/vismayasolanki/spe_calculator.git'
-//                 checkout scm
-//             }
-//         }
-//
-//         stage('Build'){
-//             steps {
-//                 sh "mvn clean package"
-//             }
-//         }
-//
-//         stage('Test'){
-//             steps{
-//                  dir('/Users/vismayasolanki/Desktop/sem8/SPE/SPE_MINI_PROJECT/src/test') {
-//                     sh "mvn test"
-//                 }
-//
-//             }
-//         }
-//         stage('Containerize (Push to Dockerhub and pull from Dockerhub)') {
-//             steps {
-//                 sh "docker build -t spe_calculator ."
-//                 withCredentials([usernamePassword(credentialsId: 'docker_HUb', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
-//                     sh 'docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
-// //                     sh 'docker tag project vismayasolanki/spe_mini_project_calc:latest'
-//                     sh 'docker push vismayasolanki/spe_mini_project_calc:latest'
-//                 }
-//                 sh 'docker pull vismayasolanki/spe_mini_project_calc:latest'
-//
-//             }
-//         }
-//
-//         stage('Ansible Deployment') {
-//             steps {
-//                 script {
-//                     sh 'ansible-playbook -i inventory deploy.yml'
-//                 }
-//             }
-//         }
-//
-//     }
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-pipeline {
-    tools {
-        maven 'Maven 3.9.0'
-    }
-
+pipeline{
     agent any
 
-    environment {
-        registry = "vismayasolanki/spe_mini_project_calc"
-        credentialID = "dockerhub"
-        dockerImage = ""
+     tools{
+        maven 'MAVEN 3.9.0'
     }
 
-    stages {
-        stage('Initalize'){
+    environment{
+        PATH = "/opt/homebrew/bin:${PATH}"
+        DOCKER_IMAGE = 'vismayasolanki/spe_mini_project_calc:latest'
+        CONTAINER_NAME = 'spe_mini_project_calc'
+    }
+
+    stages{
+        stage('Clone Git'){
             steps{
-                sh '''
-                    echo "PATH = ${PATH}"
-                    echo "M2_HOME = ${M2_HOME}"
-                '''
+                git 'https://github.com/vismayasolanki/spe_calculator.git'
+                checkout scm
             }
         }
 
-        stage('Build and test') {
+        stage('Build'){
             steps {
-                sh 'mvn clean package'
-            }
-
-            post {
-                success {
-                    junit 'target/surefire-reports/*.xml'
-                }
+                sh "mvn clean package"
             }
         }
 
-        stage('Build docker image'){
-            steps {
-                script{
-                    dockerImage = docker.build(registry + ":latest")
-                }
-            }
-        }
-
-        stage('Push image to dockerhub'){
+        stage('Test'){
             steps{
-                script{
-                    docker.withRegistry('', credentialID) {
-                        dockerImage.push()
-                    }
+                 dir('/Users/vismayasolanki/Desktop/sem8/SPE/SPE_MINI_PROJECT/src/test') {
+                    sh "mvn test"
+                }
+
+            }
+        }
+        stage('Containerize (Push to Dockerhub and pull from Dockerhub)') {
+            steps {
+                sh "docker build -t spe_calculator ."
+                withCredentials([usernamePassword(credentialsId: 'docker_HUb', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
+                    sh 'docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
+//                     sh 'docker tag project vismayasolanki/spe_mini_project_calc:latest'
+                    sh 'docker push vismayasolanki/spe_mini_project_calc:latest'
+                }
+                sh 'docker pull vismayasolanki/spe_mini_project_calc:latest'
+
+            }
+        }
+
+        stage('Ansible Deployment') {
+            steps {
+                script {
+                    sh 'ansible-playbook -i inventory deploy.yml'
                 }
             }
         }
 
-        stage('Deploy') {
-            steps {
-                ansiblePlaybook colorized:true,
-                installation: 'Ansible',
-                inventory: 'inventory',
-                playbook: 'playbook.yml'
-            }
-        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
