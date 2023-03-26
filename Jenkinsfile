@@ -6,7 +6,7 @@ pipeline{
     }
 
     environment{
-        PATH = "/usr/local/Cellar/maven/3.9.0/libexec:${PATH}"
+        PATH = "/opt/homebrew/bin:${PATH}"
         DOCKER_IMAGE = 'vismayasolanki/spe_mini_project_calc:latest'
         CONTAINER_NAME = 'spe_mini_project_calc'
         PORTS = '8080:80'
@@ -16,6 +16,7 @@ pipeline{
         stage('Clone Git'){
             steps{
                 git 'https://github.com/vismayasolanki/spe_calculator.git'
+                checkout scm
             }
         }
 

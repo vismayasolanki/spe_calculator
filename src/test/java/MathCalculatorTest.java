@@ -13,6 +13,7 @@ class MathCalculatorTest {
         assertEquals( 3628800, MathCalculator.computeFactorial(10), DELTA);
         assertEquals( 720, MathCalculator.computeFactorial(6), DELTA);
 
+
     }
 
     @org.junit.jupiter.api.Test
