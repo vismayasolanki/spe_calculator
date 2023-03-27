@@ -13,6 +13,10 @@ class MathCalculatorTest {
         assertEquals( 3628800, MathCalculator.computeFactorial(10), DELTA);
         assertEquals( 720, MathCalculator.computeFactorial(6), DELTA);
 
+        assertNotEquals(1,MathCalculator.computeFactorial(7),DELTA);
+        assertNotEquals(1190,MathCalculator.computeFactorial(8),DELTA);
+        assertNotEquals(1000,MathCalculator.computeFactorial(14),DELTA);
+
 
     }
 
@@ -22,6 +26,12 @@ class MathCalculatorTest {
         assertEquals( 1, MathCalculator.computeSquareRoot(1), DELTA);
         assertEquals( 9, MathCalculator.computeSquareRoot(81), DELTA);
         assertEquals( 6, MathCalculator.computeSquareRoot(36), DELTA);
+
+        assertNotEquals( 6, MathCalculator.computeSquareRoot(35), DELTA);
+        assertNotEquals( 0.75, MathCalculator.computeSquareRoot(0.25), DELTA);
+        assertNotEquals( 10, MathCalculator.computeSquareRoot(101), DELTA);
+
+
     }
 
     @org.junit.jupiter.api.Test
@@ -32,11 +42,24 @@ class MathCalculatorTest {
         assertEquals( 64, MathCalculator.computePower(4, 3), DELTA);
         assertEquals( 64, MathCalculator.computePower(4, 3), DELTA);
 
+        assertNotEquals( 64, MathCalculator.computePower(4, 3), DELTA);
+        assertNotEquals( 64, MathCalculator.computePower(4, 3), DELTA);
+        assertNotEquals( 64, MathCalculator.computePower(4, 3), DELTA);
+
+
     }
 
     @org.junit.jupiter.api.Test
     void computeNaturalLog() {
         assertEquals( 0, MathCalculator.computeNaturalLog(1), DELTA);
+        assertEquals( 3.91202300543, MathCalculator.computeNaturalLog(50), DELTA);
+        assertEquals( 11.6952470218, MathCalculator.computeNaturalLog(120000), DELTA);
+
+        assertNotEquals( 4, MathCalculator.computeNaturalLog(44), DELTA);
+        assertNotEquals( 8, MathCalculator.computeNaturalLog(7041), DELTA);
+        assertNotEquals( 8.5, MathCalculator.computeNaturalLog(5274), DELTA);
+
+
 
     }
 
