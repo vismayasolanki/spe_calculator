@@ -40,11 +40,10 @@ class MathCalculatorTest {
         assertEquals( 1, MathCalculator.computePower(1, 3), DELTA);
         assertEquals(81, MathCalculator.computePower(3, 4), DELTA);
         assertEquals( 64, MathCalculator.computePower(4, 3), DELTA);
-        assertEquals( 64, MathCalculator.computePower(4, 3), DELTA);
 
-        assertNotEquals( 64, MathCalculator.computePower(4, 3), DELTA);
-        assertNotEquals( 64, MathCalculator.computePower(4, 3), DELTA);
-        assertNotEquals( 64, MathCalculator.computePower(4, 3), DELTA);
+        assertNotEquals( 100, MathCalculator.computePower(4, 3), DELTA);
+        assertNotEquals( 1, MathCalculator.computePower(0, -1), DELTA);
+        assertNotEquals( 10000, MathCalculator.computePower(10, 2), DELTA);
 
 
     }
