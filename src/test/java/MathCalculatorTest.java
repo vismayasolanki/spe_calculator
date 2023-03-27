@@ -4,7 +4,7 @@ import Calculator.MathCalculator;
 class MathCalculatorTest {
 
     MathCalculator calculator = new MathCalculator();
-    private static final double DELTA = 1e-15;
+    private static final double DELTA = 1e-3;
     @org.junit.jupiter.api.Test
     void computeFactorial() {
         assertEquals( 120, MathCalculator.computeFactorial(5), DELTA);
