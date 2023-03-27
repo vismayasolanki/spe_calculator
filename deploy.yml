@@ -4,6 +4,15 @@
     - name: pull docker image
       shell: /opt/homebrew/bin/docker pull vismayasolanki/spe_mini_project_calc
 
+    - name: get container info
+      docker_container_info:
+        name: spe_mini_project_calc_container
+      register: result
+
+    - name: remove container if exists
+      shell: /opt/homebrew/bin/docker rm spe_mini_project_calc_container
+      when: result.exists
+
     - name: running container
       shell: /opt/homebrew/bin/docker run -it -d -p 6000:6000 vismayasolanki/spe_mini_project_calc
 
