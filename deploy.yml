@@ -14,7 +14,7 @@
       when: result.exists
 
     - name: running container
-      shell: /opt/homebrew/bin/docker run -it -d -p 6000:6000 vismayasolanki/spe_mini_project_calc
+      shell: /opt/homebrew/bin/docker run -it -d --name spe_mini_project_calc_container -p 9000:9000 vismayasolanki/spe_mini_project_calc
 
 
 
