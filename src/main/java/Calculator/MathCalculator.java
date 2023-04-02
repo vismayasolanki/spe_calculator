@@ -2,12 +2,18 @@ package Calculator;// package src;
 import java.awt.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 
 public class MathCalculator {
+    private static final Logger logger = LogManager.getLogger(MathCalculator.class);
+
     public MathCalculator() {
     }
 
     public static void main(String[] args) {
+
 
         MathCalculator calculator = new MathCalculator();
         Scanner input = new Scanner(System.in);
@@ -76,13 +82,17 @@ public class MathCalculator {
 
 
     public static double computeFactorial(double inp) {
+        logger.info("[FACTORIAL] - " + inp);
         double result = fact(inp);
+        logger.info("[RESULT - FACTORIAL] - " + result);
         return result;
     }
 
 
     public static double computeSquareRoot(double inp) {
         double result = 0;
+        logger.info("[SQRT] - " + inp);
+
         try {
             if(inp < 0){
                 result = Double.NaN;
@@ -95,17 +105,26 @@ public class MathCalculator {
         } catch (ArithmeticException error){
             System.out.println("[EXCEPTION - LOG] - Cannot find Square root of negative numbers " + error.getLocalizedMessage());
         }
+        logger.info("[RESULT - SQRT] - " + result);
+
         return result;
     }
 
 
     public static double computePower(double inp1, double inp2) {
+        logger.info("[POWER - " + inp11 + " RAISED TO] " + inp2);
+
         double result = Math.pow(inp1,inp2);
+
+        logger.info("[RESULT - POWER - " + result);
+
         return result;
+
     }
 
     public static double computeNaturalLog(double inp) {
         double result = 0;
+        logger.info("[NATURAL LOG] - " + inp);
         try {
 
             if (inp < 0) {
@@ -118,6 +137,7 @@ public class MathCalculator {
         } catch (ArithmeticException error) {
             System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
+        logger.info("[RESULT - NATURAL LOG] - " + result);
         return result;
     }
     public static double fact(double inp) {
