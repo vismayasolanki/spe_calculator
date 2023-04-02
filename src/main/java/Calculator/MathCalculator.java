@@ -112,7 +112,7 @@ public class MathCalculator {
 
 
     public static double computePower(double inp1, double inp2) {
-        logger.info("[POWER - " + inp11 + " RAISED TO] " + inp2);
+        logger.info("[POWER - " + inp1 + " RAISED TO] " + inp2);
 
         double result = Math.pow(inp1,inp2);
 
