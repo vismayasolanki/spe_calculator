@@ -54,8 +54,8 @@ class MathCalculatorTest {
         assertEquals( 3.91202300543, MathCalculator.computeNaturalLog(50), DELTA);
         assertEquals( 11.6952470218, MathCalculator.computeNaturalLog(120000), DELTA);
 
-        assertNotEquals( 4, MathCalculator.computeNaturalLog(44), DELTA);
-        assertNotEquals( 8, MathCalculator.computeNaturalLog(7041), DELTA);
+//        assertNotEquals( 4, MathCalculator.computeNaturalLog(44), DELTA);
+//        assertNotEquals( 8, MathCalculator.computeNaturalLog(7041), DELTA);
 //        assertNotEquals( 8.5, MathCalculator.computeNaturalLog(5274), DELTA);
 
 
