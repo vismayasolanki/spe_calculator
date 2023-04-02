@@ -1,9 +1,7 @@
 pipeline{
     agent any
 
-//      tools{
-//         maven 'Maven'
-//     }
+
 
     environment{
         PATH = "/opt/homebrew/bin:$PATH"
@@ -15,7 +13,6 @@ pipeline{
     stages{
         stage('Clone Git'){
             steps{
-//                 git 'https://github.com/vismayasolanki/spe_calculator.git'
                 checkout scm
             }
         }
@@ -39,10 +36,8 @@ pipeline{
                 sh "/opt/homebrew/bin/docker build -t vismayasolanki/spe_mini_project_calc ."
                 withCredentials([usernamePassword(credentialsId: 'docker_hub', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
                     sh '/opt/homebrew/bin/docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
-//                     sh 'docker tag project vismayasolanki/spe_mini_project_calc:latest'
                     sh '/opt/homebrew/bin/docker push vismayasolanki/spe_mini_project_calc'
                 }
-//                 sh 'docker pull vismayasolanki/spe_mini_project_calc:latest'
 
             }
         }

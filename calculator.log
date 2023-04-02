@@ -110,3 +110,171 @@
 2023-04-02 09:24:21.186 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 0.5
 2023-04-02 09:24:21.186 [main] INFO  Calculator.MathCalculator - [SQRT] - 101.0
 2023-04-02 09:24:21.186 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 10.04987562112089
+2023-04-02 09:38:10.536 [main] INFO  Calculator.MathCalculator - [POWER - 2.0 RAISED TO] 3.0
+2023-04-02 09:38:10.538 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 8.0
+2023-04-02 09:38:10.539 [main] INFO  Calculator.MathCalculator - [POWER - 1.0 RAISED TO] 3.0
+2023-04-02 09:38:10.540 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 1.0
+2023-04-02 09:38:10.540 [main] INFO  Calculator.MathCalculator - [POWER - 3.0 RAISED TO] 4.0
+2023-04-02 09:38:10.540 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 81.0
+2023-04-02 09:38:10.540 [main] INFO  Calculator.MathCalculator - [POWER - 4.0 RAISED TO] 3.0
+2023-04-02 09:38:10.540 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 64.0
+2023-04-02 09:38:10.540 [main] INFO  Calculator.MathCalculator - [POWER - 4.0 RAISED TO] 3.0
+2023-04-02 09:38:10.540 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 64.0
+2023-04-02 09:38:10.540 [main] INFO  Calculator.MathCalculator - [POWER - 0.0 RAISED TO] -1.0
+2023-04-02 09:38:10.541 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - Infinity
+2023-04-02 09:38:10.541 [main] INFO  Calculator.MathCalculator - [POWER - 10.0 RAISED TO] 2.0
+2023-04-02 09:38:10.541 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 100.0
+2023-04-02 09:38:10.546 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 1.0
+2023-04-02 09:38:10.546 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 0.0
+2023-04-02 09:38:10.546 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 50.0
+2023-04-02 09:38:10.546 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 3.912023005428146
+2023-04-02 09:38:10.546 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 120000.0
+2023-04-02 09:38:10.546 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 11.695247021764184
+2023-04-02 09:38:10.547 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 44.0
+2023-04-02 09:38:10.547 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 3.784189633918261
+2023-04-02 09:38:10.547 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 7041.0
+2023-04-02 09:38:10.547 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 8.859505484519133
+2023-04-02 09:38:10.547 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 5274.0
+2023-04-02 09:38:10.547 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 8.570544366913232
+2023-04-02 09:38:10.549 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 5.0
+2023-04-02 09:38:10.549 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 120.0
+2023-04-02 09:38:10.549 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 0.0
+2023-04-02 09:38:10.549 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 1.0
+2023-04-02 09:38:10.549 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 2.0
+2023-04-02 09:38:10.549 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 2.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 10.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 3628800.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 6.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 720.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 7.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 5040.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 8.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 40320.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 14.0
+2023-04-02 09:38:10.550 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 8.71782912E10
+2023-04-02 09:38:10.551 [main] INFO  Calculator.MathCalculator - [SQRT] - 16.0
+2023-04-02 09:38:10.552 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 4.0
+2023-04-02 09:38:10.552 [main] INFO  Calculator.MathCalculator - [SQRT] - 1.0
+2023-04-02 09:38:10.552 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 1.0
+2023-04-02 09:38:10.552 [main] INFO  Calculator.MathCalculator - [SQRT] - 81.0
+2023-04-02 09:38:10.552 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 9.0
+2023-04-02 09:38:10.552 [main] INFO  Calculator.MathCalculator - [SQRT] - 36.0
+2023-04-02 09:38:10.552 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 6.0
+2023-04-02 09:38:10.552 [main] INFO  Calculator.MathCalculator - [SQRT] - 35.0
+2023-04-02 09:38:10.553 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 5.916079783099616
+2023-04-02 09:38:10.553 [main] INFO  Calculator.MathCalculator - [SQRT] - 0.25
+2023-04-02 09:38:10.553 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 0.5
+2023-04-02 09:38:10.553 [main] INFO  Calculator.MathCalculator - [SQRT] - 101.0
+2023-04-02 09:38:10.553 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 10.04987562112089
+2023-04-02 10:39:41.309 [main] INFO  Calculator.MathCalculator - [POWER - 2.0 RAISED TO] 3.0
+2023-04-02 10:39:41.311 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 8.0
+2023-04-02 10:39:41.312 [main] INFO  Calculator.MathCalculator - [POWER - 1.0 RAISED TO] 3.0
+2023-04-02 10:39:41.312 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 1.0
+2023-04-02 10:39:41.312 [main] INFO  Calculator.MathCalculator - [POWER - 3.0 RAISED TO] 4.0
+2023-04-02 10:39:41.312 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 81.0
+2023-04-02 10:39:41.313 [main] INFO  Calculator.MathCalculator - [POWER - 4.0 RAISED TO] 3.0
+2023-04-02 10:39:41.313 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 64.0
+2023-04-02 10:39:41.313 [main] INFO  Calculator.MathCalculator - [POWER - 4.0 RAISED TO] 3.0
+2023-04-02 10:39:41.313 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 64.0
+2023-04-02 10:39:41.313 [main] INFO  Calculator.MathCalculator - [POWER - 0.0 RAISED TO] -1.0
+2023-04-02 10:39:41.313 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - Infinity
+2023-04-02 10:39:41.313 [main] INFO  Calculator.MathCalculator - [POWER - 10.0 RAISED TO] 2.0
+2023-04-02 10:39:41.313 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 100.0
+2023-04-02 10:39:41.318 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 1.0
+2023-04-02 10:39:41.318 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 0.0
+2023-04-02 10:39:41.318 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 50.0
+2023-04-02 10:39:41.318 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 3.912023005428146
+2023-04-02 10:39:41.318 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 120000.0
+2023-04-02 10:39:41.319 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 11.695247021764184
+2023-04-02 10:39:41.319 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 44.0
+2023-04-02 10:39:41.319 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 3.784189633918261
+2023-04-02 10:39:41.319 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 7041.0
+2023-04-02 10:39:41.319 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 8.859505484519133
+2023-04-02 10:39:41.319 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 5274.0
+2023-04-02 10:39:41.319 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 8.570544366913232
+2023-04-02 10:39:41.320 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 5.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 120.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 0.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 1.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 2.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 2.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 10.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 3628800.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 6.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 720.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 7.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 5040.0
+2023-04-02 10:39:41.321 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 8.0
+2023-04-02 10:39:41.322 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 40320.0
+2023-04-02 10:39:41.322 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 14.0
+2023-04-02 10:39:41.322 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 8.71782912E10
+2023-04-02 10:39:41.323 [main] INFO  Calculator.MathCalculator - [SQRT] - 16.0
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 4.0
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [SQRT] - 1.0
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 1.0
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [SQRT] - 81.0
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 9.0
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [SQRT] - 36.0
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 6.0
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [SQRT] - 35.0
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 5.916079783099616
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [SQRT] - 0.25
+2023-04-02 10:39:41.324 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 0.5
+2023-04-02 10:39:41.325 [main] INFO  Calculator.MathCalculator - [SQRT] - 101.0
+2023-04-02 10:39:41.325 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 10.04987562112089
+2023-04-02 10:41:43.873 [main] INFO  Calculator.MathCalculator - [POWER - 2.0 RAISED TO] 3.0
+2023-04-02 10:41:43.874 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 8.0
+2023-04-02 10:41:43.875 [main] INFO  Calculator.MathCalculator - [POWER - 1.0 RAISED TO] 3.0
+2023-04-02 10:41:43.876 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 1.0
+2023-04-02 10:41:43.876 [main] INFO  Calculator.MathCalculator - [POWER - 3.0 RAISED TO] 4.0
+2023-04-02 10:41:43.876 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 81.0
+2023-04-02 10:41:43.876 [main] INFO  Calculator.MathCalculator - [POWER - 4.0 RAISED TO] 3.0
+2023-04-02 10:41:43.876 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 64.0
+2023-04-02 10:41:43.876 [main] INFO  Calculator.MathCalculator - [POWER - 4.0 RAISED TO] 3.0
+2023-04-02 10:41:43.876 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 64.0
+2023-04-02 10:41:43.876 [main] INFO  Calculator.MathCalculator - [POWER - 0.0 RAISED TO] -1.0
+2023-04-02 10:41:43.877 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - Infinity
+2023-04-02 10:41:43.877 [main] INFO  Calculator.MathCalculator - [POWER - 10.0 RAISED TO] 2.0
+2023-04-02 10:41:43.877 [main] INFO  Calculator.MathCalculator - [RESULT - POWER - 100.0
+2023-04-02 10:41:43.881 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 1.0
+2023-04-02 10:41:43.881 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 0.0
+2023-04-02 10:41:43.881 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 50.0
+2023-04-02 10:41:43.881 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 3.912023005428146
+2023-04-02 10:41:43.881 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 120000.0
+2023-04-02 10:41:43.882 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 11.695247021764184
+2023-04-02 10:41:43.882 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 44.0
+2023-04-02 10:41:43.882 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 3.784189633918261
+2023-04-02 10:41:43.882 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 7041.0
+2023-04-02 10:41:43.882 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 8.859505484519133
+2023-04-02 10:41:43.882 [main] INFO  Calculator.MathCalculator - [NATURAL LOG] - 5274.0
+2023-04-02 10:41:43.882 [main] INFO  Calculator.MathCalculator - [RESULT - NATURAL LOG] - 8.570544366913232
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 5.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 120.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 0.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 1.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 2.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 2.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 10.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 3628800.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 6.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 720.0
+2023-04-02 10:41:43.884 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 7.0
+2023-04-02 10:41:43.885 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 5040.0
+2023-04-02 10:41:43.885 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 8.0
+2023-04-02 10:41:43.885 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 40320.0
+2023-04-02 10:41:43.885 [main] INFO  Calculator.MathCalculator - [FACTORIAL] - 14.0
+2023-04-02 10:41:43.885 [main] INFO  Calculator.MathCalculator - [RESULT - FACTORIAL] - 8.71782912E10
+2023-04-02 10:41:43.886 [main] INFO  Calculator.MathCalculator - [SQRT] - 16.0
+2023-04-02 10:41:43.886 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 4.0
+2023-04-02 10:41:43.886 [main] INFO  Calculator.MathCalculator - [SQRT] - 1.0
+2023-04-02 10:41:43.887 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 1.0
+2023-04-02 10:41:43.887 [main] INFO  Calculator.MathCalculator - [SQRT] - 81.0
+2023-04-02 10:41:43.887 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 9.0
+2023-04-02 10:41:43.887 [main] INFO  Calculator.MathCalculator - [SQRT] - 36.0
+2023-04-02 10:41:43.887 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 6.0
+2023-04-02 10:41:43.887 [main] INFO  Calculator.MathCalculator - [SQRT] - 35.0
+2023-04-02 10:41:43.887 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 5.916079783099616
+2023-04-02 10:41:43.887 [main] INFO  Calculator.MathCalculator - [SQRT] - 0.25
+2023-04-02 10:41:43.887 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 0.5
+2023-04-02 10:41:43.888 [main] INFO  Calculator.MathCalculator - [SQRT] - 101.0
+2023-04-02 10:41:43.888 [main] INFO  Calculator.MathCalculator - [RESULT - SQRT] - 10.04987562112089
