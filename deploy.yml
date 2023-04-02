@@ -1,5 +1,5 @@
 - name: Pull docker image of Calculator
-  hosts: all`
+  hosts: all
   tasks:
     - name: pull docker image
       shell: /opt/homebrew/bin/docker pull vismayasolanki/spe_mini_project_calc
