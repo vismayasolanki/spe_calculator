@@ -58,7 +58,7 @@ class MathCalculatorTest {
         assertNotEquals( 8, MathCalculator.computeNaturalLog(7041), DELTA);
         assertNotEquals( 8.5, MathCalculator.computeNaturalLog(5274), DELTA);
         //hello world test
-//        test2
+//        test1
 
 
 
